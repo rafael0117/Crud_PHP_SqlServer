@@ -6,6 +6,10 @@
     <title>Aplicacion PHP</title>
 </head>
 <body>
-    
+    <?php
+   // phpinfo();
+   include_once('./Clases/CConexion.php');
+   $consulta = CConexion::ConexionBD();
+    ?>
 </body>
 </html>
